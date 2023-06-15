@@ -1,11 +1,11 @@
 *,
 *::before,
 *::after {
-    --azul-escuro: #154580;
-    --azul-medio: #3970BE;
-    --azul-claro: #E5F1FF;
-    --cinza-texto: #444444;
-    --cinza-claro: #ECECEC;
+    --azul-escuro: #000000;
+    --azul-medio: #0003a1;
+    --azul-claro: #29498d;
+    --cinza-texto: #000000;
+    --cinza-claro: #ffffff;
     box-sizing: border-box;
 }
 
@@ -42,7 +42,7 @@
 .videos__container {
     display: flex;
     flex-wrap: wrap;   
-    gap: 10px;
+    gap: 11px;
 }
 
 .videos__item {
@@ -137,8 +137,8 @@
 
     .menu__lista {
         height: auto;
-        padding: 20px 17px 20px 15px;
-        gap: 15px;
+        padding: 20px 17px 20px 10px;
+        gap: 10px;
     }
     .menu__itens{
         flex-direction: row;
@@ -361,7 +361,7 @@ body {
     font-size: 16px;
     background-color: white;
     border-radius: 20px;
-    padding: 8px 20px;
+    padding: 10px 25px;
     cursor: pointer;
 }
 
@@ -387,12 +387,12 @@ body {
 
 .descricao-video h3 {
     font-weight: 700;
-    color: #444444;
+    color: #ffffff;
 }
 
 .descricao-video p {
     font-size: 14px;
-    color: #444444;
+    color: #ffffff;
 }
 
 /* RODAPÉ */
